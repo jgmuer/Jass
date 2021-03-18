@@ -17,6 +17,7 @@ namespace Jass
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());
+            Console.Write("lol");
         }
     }
 }

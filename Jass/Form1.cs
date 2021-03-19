@@ -12,7 +12,7 @@ namespace Jass
 {
     public partial class Form1 : Form
     {
-        private cards cards = new cards();
+        private CardManager cards = new CardManager();
         public Form1()
         {
             InitializeComponent();

@@ -12,9 +12,21 @@ namespace Jass
 {
     public partial class Form1 : Form
     {
+        private cards cards = new cards();
         public Form1()
         {
             InitializeComponent();
+            LoadForm();
+        }
+
+        private void LoadForm()
+        {
+            cards.CreateCardList();
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
